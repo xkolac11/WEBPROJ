@@ -1,0 +1,41 @@
+{block title}Home{/block}
+{block content}
+
+<div class="content">
+	
+	<div class="breadcrumbs">
+		<span><a href={link Homepage:} class="breadcrumbs-node">Hlavní strana</a></span>
+	</div>
+		
+	{foreach $results as $r}
+		<div class="section-box">
+			<div class="section-header {$iterator->odd? sh-odd : sh-even}" id=""><span>{$r['section']->title}</span><div class="section-toggle on"></div></div>
+				
+			<div class="section-content visible">
+				{if $r['forums_count'] > 0}
+					<div class="forums-box">
+					
+				{foreach $r['forums'] as $f}
+					
+						<div class="forum {$iterator->last? btm-brdr}">
+							<span class="forum-icon icon-forum"></span>
+							<span class="forum-name"><a href="#">{$f->title}</a></span>
+						</div>
+				{/foreach}
+					</div>
+				
+				{else}
+					<div class="forums-box">
+						<div class="noforum">
+							<span class="noforum-icon"></span>
+							<span class="noforum-name">Žádná fóra.</span>
+						</div>
+					</div>
+				{/if}
+			</div>
+		</div>
+	{/foreach}
+			
+</div>
+
+{/block}

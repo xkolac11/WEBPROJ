@@ -1,0 +1,83 @@
+{**
+ * My Application layout template.
+ *
+ * @param string   $basePath web base path
+ * @param string   $robots   tell robots how to index the content of a page (optional)
+ * @param array    $flashes  flash messages
+ *}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	
+	<link rel="stylesheet" type="text/css" href="{$basePath}/css/style.css"/>
+
+	<title>{include #title} | WebProj Forum</title>
+
+	{block head}{/block}
+		
+</head>
+
+<body>
+	{if $user->isLoggedIn()}
+	<div class="header">
+		
+		
+			<div class="h-top">
+				<div class="h-inner">
+					<div class="logged">
+						<span>{$user->getIdentity()->login}</span><a class="logon-icon icon-logout" n:href="signOut!"></a><a class="logon-icon icon-user"></a>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="h-bottom">
+				<div class="h-inner">
+					<div class="h-left">
+						<div class="logo"></div>
+					</div>
+					
+					<div class="h-right">
+						{form searchForm}
+							<div class="search-box">								
+									<div class="search-input-box">
+										{label query}{input query, class=>"search-input", placeholder=>$form['query']->caption}{/label}
+									</div>
+									<div class="search-submit-box">
+										{input submit, class=>"search-submit"}
+									</div>													
+							</div>
+							
+							<div id="settings-btn" class="settings-btn">
+								<a id="toggle-settings"></a>
+								<div id="settings" class="settings">
+									<ul class="settings-ul">										
+										<li>{label ch_topics}{input ch_topics, class=>"chbox", checked=>"checked"} {$form['ch_topics']->caption}{/label}</li>
+										<li>{label ch_posts}{input ch_posts, class=>"chbox", checked=>"checked"} {$form['ch_posts']->caption}{/label}</li>
+										<li>{label ch_sections}{input ch_sections, class=>"chbox"} {$form['ch_sections']->caption}{/label}</li>
+										<li>{label ch_comments}{input ch_comments, class=>"chbox"} {$form['ch_comments']->caption}{/label}</li>
+										<li>{label ch_users}{input ch_users, class=>"chbox"} {$form['ch_users']->caption}{/label}</li>
+									</ul>
+								</div>
+							</div>
+							
+						{/form}		
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>							
+	</div>	
+{/if}
+		
+	{include #content}
+
+	{block scripts}
+		<script src="{$basePath}/js/jquery-1.10.2.min.js"></script>
+		<script src="{$basePath}/js/jquery-1.10.2.min-ui.js"></script>
+		<script src="{$basePath}/js/forum-jquery.js"></script>
+	{/block}
+		
+</body>
+</html>

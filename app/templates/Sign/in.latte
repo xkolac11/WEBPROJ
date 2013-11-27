@@ -1,0 +1,29 @@
+{block #content}
+
+<div class="login-box">
+
+<p class="login-heading">{block title}Přihlášení{/block}</p>
+
+{form signInForm}
+<div class="sign-in-form">
+    {control $form errors}
+
+    <div class="pair">
+        {label username /}
+        <div class="input">{input username}</div>
+    </div>
+    <div class="pair">
+        {label password /}
+        <div class="input">{input password}</div>
+    </div>
+    <div class="pair">
+        <div class="input">{input persistent} {label persistent /}</div>
+    </div>
+
+    <div class="pair">
+        <div class="submit">{input login}</div>
+    </div>
+</div>
+
+</div>
+{/form}
