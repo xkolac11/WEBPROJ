@@ -32,7 +32,6 @@ class HomepagePresenter extends BasePresenter
 		
 		foreach ($res as $key=>$val){
 			$this->template->results[$key]['section'] = $val;
-			//pozor, pole se cisluje od 0
 			$this->template->results[$key]['forums'] = $this->forums->getForumsBySectionId($val->id);
 			$this->template->results[$key]['forums_count'] = count($this->template->results[$key]['forums']);
 		}

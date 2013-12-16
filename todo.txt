@@ -1,0 +1,5 @@
+- na hlavni strane u posledniho prispevku fora predelat datum na dobu, pred jakou byl prispevek pridan (napr pred 6 hodinami...)
+
+- styly hlavni strany budou potrebovat upravu pro responsive design, pro male rozliseni brat v potaz relativni sirku (vse v %) 
+
+- po dokonceni hlavni strany refaktorizovat CSS kod

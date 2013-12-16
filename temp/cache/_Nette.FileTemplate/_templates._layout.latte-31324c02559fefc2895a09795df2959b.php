@@ -1,23 +1,23 @@
-<?php //netteCache[01]000373a:2:{s:4:"time";s:21:"0.50583000 1385078694";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:51:"C:\xampp\htdocs\WEBPROJ\app\templates\@layout.latte";i:2;i:1385078691;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:30:"80a7e46 released on 2013-08-08";}}}?><?php
+<?php //netteCache[01]000373a:2:{s:4:"time";s:21:"0.02285900 1385900317";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:51:"C:\xampp\htdocs\WEBPROJ\app\templates\@layout.latte";i:2;i:1385900245;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:30:"80a7e46 released on 2013-08-08";}}}?><?php
 
 // source file: C:\xampp\htdocs\WEBPROJ\app\templates\@layout.latte
 
 ?><?php
 // prolog Nette\Latte\Macros\CoreMacros
-list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, '32yi5bw6ny')
+list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'nyeu5a8amv')
 ;
 // prolog Nette\Latte\Macros\UIMacros
 //
 // block head
 //
-if (!function_exists($_l->blocks['head'][] = '_lbabb5ac9c2c_head')) { function _lbabb5ac9c2c_head($_l, $_args) { extract($_args)
+if (!function_exists($_l->blocks['head'][] = '_lb4e1ec35763_head')) { function _lb4e1ec35763_head($_l, $_args) { extract($_args)
 ;
 }}
 
 //
 // block scripts
 //
-if (!function_exists($_l->blocks['scripts'][] = '_lbf665acd4b2_scripts')) { function _lbf665acd4b2_scripts($_l, $_args) { extract($_args)
+if (!function_exists($_l->blocks['scripts'][] = '_lba566220a44_scripts')) { function _lba566220a44_scripts($_l, $_args) { extract($_args)
 ?>		<script src="<?php echo htmlSpecialChars($basePath) ?>/js/jquery-1.10.2.min.js"></script>
 		<script src="<?php echo htmlSpecialChars($basePath) ?>/js/jquery-1.10.2.min-ui.js"></script>
 		<script src="<?php echo htmlSpecialChars($basePath) ?>/js/forum-jquery.js"></script>
@@ -51,6 +51,7 @@ if ($_l->extends) {
 	<meta name="description" content="" />
 	
 	<link rel="stylesheet" type="text/css" href="<?php echo htmlSpecialChars($basePath) ?>/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo htmlSpecialChars($basePath) ?>/css/homepage.css" />
 
 	<title><?php Nette\Latte\Macros\UIMacros::callBlock($_l, 'title', $template->getParameters()) ?> | WebProj Forum</title>
 

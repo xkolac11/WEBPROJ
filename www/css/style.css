@@ -682,14 +682,15 @@ body{
 .icon-logout{background-image:url('../images/icon-logout.png');}
 .icon-logout:hover{background-color:#45c4e8;}
 	
-	
+/* content ve vsech rozlisenich */
+
 	
 /** ******************************* **/
 
 @media(min-width:1200px){
 	.content{
 		display:block;
-		margin:0 auto;
+		margin:0px auto 100px auto;
 		width:1200px;
 		height:auto;
 		background-color:#fff;
@@ -707,16 +708,16 @@ body{
 	.section-header{
 		width:1178px;
 		margin:0 auto;
-		height:50px;
-		border:1px solid #527efa;
+		height:40px;
+		border:1px solid #9499fd;
 	}
 	
 	.section-header span{
 		display:block;
-		font-size:20px;
-		margin-top:14px;
-		margin-left:25px;
-		font-weight:bold;
+		font-size:18px;
+		margin-top:12px;
+		margin-left:20px;
+		#font-weight:bold;
 		float:left;
 		color:#fff;
 		width:90%;
@@ -739,61 +740,7 @@ body{
 		border:1px solid #d6d6d6;
 		background:#fff;
 	}
-	
-	.forum-icon{
-		display:block;
-		width:20px;
-		height:20px;
-		margin-top:22px;
-		margin-left:25px;
-		float:left;
-	}
-	
-	.noforum-icon{
-		display:block;
-		width:20px;
-		height:20px;
-		margin-top:11px;
-		margin-left:25px;
-		float:left;
-		background-image:url('../images/icon-noforum.png');
-	}
-	
-	.icon-forum{
-		background-image:url('../images/icon-rightarrow.png');
-	}
-	
-	
-	.forum-name{
-		display:block;
-		margin-top:23px;
-		font-size:18px;
-		margin-left:10px;
-		float:left;
-		font-weight:bold;
-		width:60%;	
-	}
-	
-	.forum-name a{
-		text-decoration:none;
-		color:#008aff;
-	}
-	
-	.forum-name a:hover{
-		color:#2fc04d;
-	}
-	
-	.noforum-name{
-		display:block;
-		margin-top:14px;
-		font-size:16px;
-		margin-left:10px;
-		float:left;
-		font-weight:bold;
-		width:600px;	
-		color:#969696;
-	}
-	
+		
 	.visible{
 		width:1178px;
 	}
@@ -803,7 +750,7 @@ body{
 @media(min-width:980px) and (max-width:1199px){
 	.content{
 		display:block;
-		margin:0 auto;
+		margin:0px auto 100px auto;
 		width:980px;
 		height:auto;
 		background-color:#fff;
@@ -821,15 +768,15 @@ body{
 	.section-header{
 		width:958px;
 		margin:0 auto;
-		height:50px;
-		border:1px solid #527efa;
+		height:40px;
+		border:1px solid #9499fd;
 	}
 	
 	.section-header span{
 		display:block;
-		font-size:20px;
-		margin-top:14px;
-		margin-left:25px;
+		font-size:18px;
+		margin-top:12px;
+		margin-left:20px;
 		font-weight:bold;
 		float:left;
 		color:#fff;
@@ -853,61 +800,7 @@ body{
 		border:1px solid #d6d6d6;
 		background:#fff;
 	}
-	
-	.forum-icon{
-		display:block;
-		width:20px;
-		height:20px;
-		margin-top:22px;
-		margin-left:25px;
-		float:left;
-	}
-	
-	.noforum-icon{
-		display:block;
-		width:20px;
-		height:20px;
-		margin-top:11px;
-		margin-left:25px;
-		float:left;
-		background-image:url('../images/icon-noforum.png');
-	}
-	
-	.icon-forum{
-		background-image:url('../images/icon-rightarrow.png');
-	}
-	
-	
-	.forum-name{
-		display:block;
-		margin-top:23px;
-		font-size:18px;
-		margin-left:10px;
-		float:left;
-		font-weight:bold;
-		width:60%;	
-	}
-	
-	.forum-name a{
-		text-decoration:none;
-		color:#008aff;
-	}
-	
-	.forum-name a:hover{
-		color:#2fc04d;
-	}
-	
-	.noforum-name{
-		display:block;
-		margin-top:14px;
-		font-size:16px;
-		margin-left:10px;
-		float:left;
-		font-weight:bold;
-		width:600px;	
-		color:#969696;
-	}
-	
+		
 	.visible{
 		width:958px;
 	}
@@ -917,7 +810,7 @@ body{
 @media(min-width:768px) and (max-width:979px){
 	.content{
 		display:block;
-		margin:0 auto;
+		margin:0px auto 100px auto;
 		width:768px;
 		height:auto;
 		background-color:#fff;
@@ -935,15 +828,15 @@ body{
 	.section-header{
 		width:746px;
 		margin:0 auto;
-		height:50px;
-		border:1px solid #527efa;
+		height:40px;
+		border:1px solid #9499fd;
 	}
 	
 	.section-header span{
 		display:block;
-		font-size:20px;
-		margin-top:14px;
-		margin-left:25px;
+		font-size:18px;
+		margin-top:12px;
+		margin-left:20px;
 		font-weight:bold;
 		float:left;
 		color:#fff;
@@ -968,59 +861,6 @@ body{
 		background:#fff;
 	}
 	
-	.forum-icon{
-		display:block;
-		width:20px;
-		height:20px;
-		margin-top:22px;
-		margin-left:25px;
-		float:left;
-	}
-	
-	.noforum-icon{
-		display:block;
-		width:20px;
-		height:20px;
-		margin-top:11px;
-		margin-left:25px;
-		float:left;
-		background-image:url('../images/icon-noforum.png');
-	}
-	
-	.icon-forum{
-		background-image:url('../images/icon-rightarrow.png');
-	}
-	
-	
-	.forum-name{
-		display:block;
-		margin-top:23px;
-		font-size:18px;
-		margin-left:10px;
-		float:left;
-		font-weight:bold;
-		width:60%;	
-	}
-	
-	.forum-name a{
-		text-decoration:none;
-		color:#008aff;
-	}
-	
-	.forum-name a:hover{
-		color:#2fc04d;
-	}
-	
-	.noforum-name{
-		display:block;
-		margin-top:14px;
-		font-size:16px;
-		margin-left:10px;
-		float:left;
-		font-weight:bold;
-		width:600px;	
-		color:#969696;
-	}
 	
 	.visible{
 		width:746px;
@@ -1031,7 +871,7 @@ body{
 @media (max-width:767px){
 	.content{
 		display:block;
-		margin:0 auto;
+		margin:0px auto 100px auto;
 		width:480px;
 		height:auto;
 		background-color:#fff;
@@ -1049,15 +889,15 @@ body{
 	.section-header{
 		width:458px;
 		margin:0 auto;
-		height:50px;
-		border:1px solid #527efa;
+		height:40px;
+		border:1px solid #9499fd;
 	}
 	
 	.section-header span{
 		display:block;
-		font-size:20px;
-		margin-top:14px;
-		margin-left:25px;
+		font-size:18px;
+		margin-top:12px;
+		margin-left:20px;
 		font-weight:bold;
 		float:left;
 		color:#fff;
@@ -1081,61 +921,7 @@ body{
 		border:1px solid #d6d6d6;
 		background:#fff;
 	}
-	
-	.forum-icon{
-		display:block;
-		width:20px;
-		height:20px;
-		margin-top:22px;
-		margin-left:25px;
-		float:left;
-	}
-	
-	.noforum-icon{
-		display:block;
-		width:20px;
-		height:20px;
-		margin-top:11px;
-		margin-left:25px;
-		float:left;
-		background-image:url('../images/icon-noforum.png');
-	}
-	
-	.icon-forum{
-		background-image:url('../images/icon-rightarrow.png');
-	}
-	
-	
-	.forum-name{
-		display:block;
-		margin-top:23px;
-		font-size:18px;
-		margin-left:10px;
-		float:left;
-		font-weight:bold;
-		width:60%;	
-	}
-	
-	.forum-name a{
-		text-decoration:none;
-		color:#008aff;
-	}
-	
-	.forum-name a:hover{
-		color:#2fc04d;
-	}
-	
-	.noforum-name{
-		display:block;
-		margin-top:14px;
-		font-size:16px;
-		margin-left:10px;
-		float:left;
-		font-weight:bold;
-		width:600px;	
-		color:#969696;
-	}
-	
+		
 	.visible{
 		width:458px;
 	}
@@ -1168,16 +954,33 @@ body{
 	margin-bottom:20px;
 }
 
+.sh-odd{background: #499bea; /* Old browsers */
+background: -moz-linear-gradient(top,  #499bea 0%, #207ce5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#499bea), color-stop(100%,#207ce5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #499bea 0%,#207ce5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #499bea 0%,#207ce5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #499bea 0%,#207ce5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #499bea 0%,#207ce5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=0 ); /* IE6-9 */
 
-.sh-odd{background: #6699ff;}
-.sh-even{background: #77aaff;}
+}
+
+.sh-even{background: #499bea; /* Old browsers */
+background: -moz-linear-gradient(top,  #499bea 0%, #207ce5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#499bea), color-stop(100%,#207ce5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #499bea 0%,#207ce5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #499bea 0%,#207ce5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #499bea 0%,#207ce5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #499bea 0%,#207ce5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=0 ); /* IE6-9 */
+}
 
 .section-toggle{
 	float:right;
 	width:45px;
 	height:30px;
-	margin-right:10px;
-	margin-top:9px;
+	margin-right:5px;
+	margin-top:5px;
 	cursor:pointer;
 	transition:background-image 0.25s ease;
 }
@@ -1188,27 +991,16 @@ body{
 
 .visible{
 	margin:0 auto;
-	border-left:1px solid #cecece;
-	border-right:1px solid #cecece;
-	border-bottom:1px solid #cecece;
+	border-left:1px solid #9499fd;
+	border-right:1px solid #9499fd;
+	border-bottom:1px solid #9499fd;
 }
 
 .forums-box{
 	padding:10px;
-	background:#dbefff;
+	#background:#dbefff;
 }
 
 .btm-brdr{
 	border:1px solid #d6d6d6;
 }
-
-
-
-
-
-
-
-
-
-
-

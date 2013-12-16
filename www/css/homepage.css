@@ -1,0 +1,514 @@
+/** homepage css **/
+@media (min-width:1200px){
+	
+	.forum-icon{
+		display:block;
+		width:100%;
+		height:40px;
+		margin-top:12px;
+		margin-bottom:12px;
+	}
+	
+	.forum-title{
+		margin-top:17px;
+		margin-left:5px;
+	}
+	
+	.forum-title a{
+		text-decoration:none;
+		font-size:15px;
+		font-weight:bold;
+		color:#6a6a6a;
+	}
+	
+	.forum-description{
+		font-size:12px;
+		margin-top:5px;
+		margin-left:5px;
+	}
+	
+	.forum-table{
+		margin:0 auto;
+		border-collapse:collapse;
+		width:100%;
+		background:#fff;
+	}
+	
+	.forum-table th{
+		vertical-align:middle;
+		font-size:13px;		
+	}
+	
+	.ft-others{
+		height:70px;
+	}
+	
+	.ft-first{
+		height:30px !important;
+		border-top:1px solid #9499fd;
+		border-left:1px solid #9499fd;
+		border-right:1px solid #9499fd;
+		color:#fff;
+		background: #49bafc; /* Old browsers */
+		background: -moz-linear-gradient(top,  #49bafc 0%, #2590cf 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#49bafc), color-stop(100%,#2590cf)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #49bafc 0%,#2590cf 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #49bafc 0%,#2590cf 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #49bafc 0%,#2590cf 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #49bafc 0%,#2590cf 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49bafc', endColorstr='#2590cf',GradientType=0 ); /* IE6-9 */
+	}
+	
+	.ft-icon{
+		width:40px;
+		padding-left:10px;
+		border-left:1px solid #bbb;
+		border-bottom:1px solid #bbb;
+	}
+	
+	.ft-forum{
+		vertical-align:top;
+		width:700px;
+		border-right:1px solid #bbb;
+		border-bottom:1px solid #bbb;
+	}
+	
+	.ft-topics{
+		width:70px;
+		border-right:1px solid #bbb;
+		border-bottom:1px solid #bbb;
+		text-align:center;
+		vertical-align:middle;
+		font-size:13px;
+	}
+	
+	.ft-posts{
+		width:70px;
+		border-right:1px solid #bbb;
+		border-bottom:1px solid #bbb;
+		text-align:center;
+		vertical-align:middle;
+		font-size:13px;
+	}
+	
+	.ft-last{
+		width:265px;
+		vertical-align:middle;
+		border-right:1px solid #bbb;
+		border-bottom:1px solid #bbb;
+	}
+	
+	.ft-last-icon{
+		float:left;
+		width:48px;
+		height:48px;
+		border:1px solid #aaaaaa;
+		margin-left:10px;
+	}
+	
+	.ft-last-details{
+		float:left;
+		width:190px;
+		margin-left:10px;
+	}
+	
+	.ft-last-details span{
+		color:#666666;
+		font-size:12px;
+	}
+	
+	.ft-last-none{
+		display:block;
+		width:100%;
+		color:#666666;
+		font-size:13px;
+		text-align:center;
+	}
+	
+}
+
+@media(min-width:980px) and (max-width:1199px){
+	.forum-icon{
+		display:block;
+		width:100%;
+		height:40px;
+		margin-top:12px;
+		margin-bottom:12px;
+	}
+	
+	.forum-title{
+		margin-top:17px;
+		margin-left:5px;
+	}
+	
+	.forum-title a{
+		text-decoration:none;
+		font-size:15px;
+		font-weight:bold;
+		color:#6a6a6a;
+	}
+	
+	.forum-description{
+		font-size:12px;
+		margin-top:5px;
+		margin-left:5px;
+	}
+	
+	.forum-table{
+		margin:0 auto;
+		border-collapse:collapse;
+		width:100%;
+		background:#fff;
+	}
+	
+	.forum-table th{
+		vertical-align:middle;
+		font-size:13px;		
+	}
+	
+	.ft-others{
+		height:70px;
+	}
+	
+	.ft-first{
+		height:30px !important;
+		border-top:1px solid #9499fd;
+		border-left:1px solid #9499fd;
+		border-right:1px solid #9499fd;
+		color:#fff;
+		background: #49bafc; /* Old browsers */
+		background: -moz-linear-gradient(top,  #49bafc 0%, #2590cf 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#49bafc), color-stop(100%,#2590cf)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #49bafc 0%,#2590cf 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #49bafc 0%,#2590cf 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #49bafc 0%,#2590cf 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #49bafc 0%,#2590cf 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49bafc', endColorstr='#2590cf',GradientType=0 ); /* IE6-9 */
+	}
+	
+	.ft-icon{
+		width:40px;
+		padding-left:10px;
+		border-left:1px solid #bbb;
+		border-bottom:1px solid #bbb;
+	}
+	
+	.ft-forum{
+		vertical-align:top;
+		width:520px;
+		border-right:1px solid #bbb;
+		border-bottom:1px solid #bbb;
+	}
+	
+	.ft-topics{
+		width:65px;
+		border-right:1px solid #bbb;
+		border-bottom:1px solid #bbb;
+		text-align:center;
+		vertical-align:middle;
+		font-size:13px;
+	}
+	
+	.ft-posts{
+		width:65px;
+		border-right:1px solid #bbb;
+		border-bottom:1px solid #bbb;
+		text-align:center;
+		vertical-align:middle;
+		font-size:13px;
+	}
+	
+	.ft-last{
+		width:230px;
+		vertical-align:middle;
+		border-right:1px solid #bbb;
+		border-bottom:1px solid #bbb;
+	}
+	
+	.ft-last-icon{
+		float:left;
+		width:48px;
+		height:48px;
+		border:1px solid #aaaaaa;
+		margin-left:10px;
+	}
+	
+	.ft-last-details{
+		float:left;
+		width:160px;
+		margin-left:10px;
+	}
+	
+	.ft-last-details span{
+		color:#666666;
+		font-size:12px;
+	}
+	
+	.ft-last-none{
+		display:block;
+		width:100%;
+		color:#666666;
+		font-size:13px;
+		text-align:center;
+	}
+}
+
+@media(min-width:768px) and (max-width:979px){
+	.forum-icon{
+		display:block;
+		width:100%;
+		height:40px;
+		margin-top:12px;
+		margin-bottom:12px;
+	}
+	
+	.forum-title{
+		margin-top:17px;
+		margin-left:5px;
+	}
+	
+	.forum-title a{
+		text-decoration:none;
+		font-size:15px;
+		font-weight:bold;
+		color:#6a6a6a;
+	}
+	
+	.forum-description{
+		font-size:12px;
+		margin-top:5px;
+		margin-left:5px;
+	}
+	
+	.forum-table{
+		margin:0 auto;
+		border-collapse:collapse;
+		width:100%;
+		background:#fff;
+	}
+	
+	.forum-table th{
+		vertical-align:middle;
+		font-size:13px;		
+	}
+	
+	.ft-others{
+		height:70px;
+	}
+	
+	.ft-first{
+		height:30px !important;
+		border-top:1px solid #9499fd;
+		border-left:1px solid #9499fd;
+		border-right:1px solid #9499fd;
+		color:#fff;
+		background: #49bafc; /* Old browsers */
+		background: -moz-linear-gradient(top,  #49bafc 0%, #2590cf 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#49bafc), color-stop(100%,#2590cf)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #49bafc 0%,#2590cf 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #49bafc 0%,#2590cf 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #49bafc 0%,#2590cf 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #49bafc 0%,#2590cf 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49bafc', endColorstr='#2590cf',GradientType=0 ); /* IE6-9 */
+	}
+	
+	.ft-icon{
+		width:40px;
+		padding-left:10px;
+		border-left:1px solid #bbb;
+		border-bottom:1px solid #bbb;
+	}
+	
+	.ft-forum{
+		vertical-align:top;
+		width:350px;
+		border-right:1px solid #bbb;
+		border-bottom:1px solid #bbb;
+	}
+	
+	.ft-topics{
+		width:60px;
+		border-right:1px solid #bbb;
+		border-bottom:1px solid #bbb;
+		text-align:center;
+		vertical-align:middle;
+		font-size:13px;
+	}
+	
+	.ft-posts{
+		width:60px;
+		border-right:1px solid #bbb;
+		border-bottom:1px solid #bbb;
+		text-align:center;
+		vertical-align:middle;
+		font-size:13px;
+	}
+	
+	.ft-last{
+		width:200px;
+		vertical-align:middle;
+		border-right:1px solid #bbb;
+		border-bottom:1px solid #bbb;
+	}
+	
+	.ft-last-icon{
+		float:left;
+		width:48px;
+		height:48px;
+		border:1px solid #aaaaaa;
+		margin-left:10px;
+	}
+	
+	.ft-last-details{
+		float:left;
+		width:130px;
+		margin-left:10px;
+	}
+	
+	.ft-last-details span{
+		color:#666666;
+		font-size:12px;
+	}
+	
+	.ft-last-none{
+		display:block;
+		width:100%;
+		color:#666666;
+		font-size:13px;
+		text-align:center;
+	}
+}
+
+@media (max-width:767px){
+	.forum-icon{
+		display:block;
+		width:100%;
+		height:40px;
+		margin-top:12px;
+		margin-bottom:12px;
+	}
+	
+	.forum-title{
+		margin-top:17px;
+		margin-left:5px;
+	}
+	
+	.forum-title a{
+		text-decoration:none;
+		font-size:15px;
+		font-weight:bold;
+		color:#6a6a6a;
+	}
+	
+	.forum-description{
+		font-size:12px;
+		margin-top:5px;
+		margin-left:5px;
+	}
+	
+	.forum-table{
+		margin:0 auto;
+		border-collapse:collapse;
+		width:100%;
+		background:#fff;
+	}
+	
+	.forum-table th{
+		vertical-align:middle;
+		font-size:13px;		
+	}
+	
+	.ft-others{
+		height:70px;
+	}
+	
+	.ft-first{
+		height:30px !important;
+		border-top:1px solid #9499fd;
+		border-left:1px solid #9499fd;
+		border-right:1px solid #9499fd;
+		color:#fff;
+		background: #49bafc; /* Old browsers */
+		background: -moz-linear-gradient(top,  #49bafc 0%, #2590cf 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#49bafc), color-stop(100%,#2590cf)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #49bafc 0%,#2590cf 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #49bafc 0%,#2590cf 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #49bafc 0%,#2590cf 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #49bafc 0%,#2590cf 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49bafc', endColorstr='#2590cf',GradientType=0 ); /* IE6-9 */
+	}
+	
+	.ft-icon{
+		width:55px;
+		padding-left:10px;
+		border-left:1px solid #bbb;
+		border-bottom:1px solid #bbb;
+	}
+	
+	.ft-forum{
+		vertical-align:top;
+		width:180px;
+		border-right:1px solid #bbb;
+		border-bottom:1px solid #bbb;
+	}
+	
+	.ft-topics{
+		width:55px;
+		border-right:1px solid #bbb;
+		border-bottom:1px solid #bbb;
+		text-align:center;
+		vertical-align:middle;
+		font-size:13px;
+	}
+	
+	.ft-posts{
+		width:50px;
+		border-right:1px solid #bbb;
+		border-bottom:1px solid #bbb;
+		text-align:center;
+		vertical-align:middle;
+		font-size:13px;
+	}
+	
+	.ft-last{
+		width:150px;
+		vertical-align:middle;
+		border-right:1px solid #bbb;
+		border-bottom:1px solid #bbb;
+	}
+	
+	.ft-last-icon{
+		float:left;
+		margin-top:10px;
+		width:48px;
+		height:48px;
+		border:1px solid #aaaaaa;
+		margin-left:10px;
+	}
+	
+	.ft-last-details{
+		float:left;
+		width:40px;
+		margin-left:10px;
+	}
+	
+	.ft-last-details span{
+		color:#666666;
+		font-size:12px;
+	}
+	
+	.ft-last-none{
+		display:block;
+		width:100%;
+		color:#666666;
+		font-size:13px;
+		text-align:center;
+	}
+}
+
+.icon-forum{background-image:url('../images/icon-forum.png')}
+.user-a{font-weight:bold; color:#6666ff;}
+.user-a:hover{color:#669900;}
+.topic-a{color:#666633;}
+.topic-a:hover{color:#669900;}
+.last-datetime{font-size:11px;}

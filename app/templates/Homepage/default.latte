@@ -13,17 +13,46 @@
 				
 			<div class="section-content visible">
 				{if $r['forums_count'] > 0}
-					<div class="forums-box">
-					
-				{foreach $r['forums'] as $f}
-					
-						<div class="forum {$iterator->last? btm-brdr}">
-							<span class="forum-icon icon-forum"></span>
-							<span class="forum-name"><a href="#">{$f->title}</a></span>
-						</div>
-				{/foreach}
+					<div class="forums-box">			
+						<table class="forum-table">
+							<tr class="ft-first"><th></th><th>Fórum</th><th>Témata</th><th>Příspěvky</th><th>Poslední příspěvek</th></tr>
+							{foreach $r['forums'] as $f}
+							
+								<tr class="ft-others">
+									<td class="ft-icon">
+										<div class="forum-icon icon-forum"></div>
+									</td>
+									<td class="ft-forum">
+										<div class="forum-title"><a href="#">{$f->title}</a></div>
+										<div class="forum-description">{$f->description}</div>
+									</td>
+									<td class="ft-topics">
+										{$f->topics_count}
+									</td>
+									<td class="ft-posts">
+										{$f->posts_count}
+									</td>
+									<td class="ft-last">
+										
+										{if $f->last_user != NULL && $f->last_topic != NULL && $f->last_datetime != NULL}									
+											<div class="ft-last-icon">
+											</div>
+											<div class="ft-last-details">
+												<span><a href="#" class="user-a">{$f->last_user}</a></span><br/>
+												<span>v <a href="#" class="topic-a">{$f->last_topic}</a></span><br/>
+												<span class="last-datetime">{$f->last_datetime}</span>
+											</div>
+											<div class="clear"></div>
+										{else}											
+											<span class="ft-last-none">Fórum neobsahuje žádné příspěvky.</span>									
+										{/if}
+																				
+									</td>
+								</tr>
+															
+							{/foreach}			
+						</table>
 					</div>
-				
 				{else}
 					<div class="forums-box">
 						<div class="noforum">
@@ -34,8 +63,7 @@
 				{/if}
 			</div>
 		</div>
-	{/foreach}
-			
+	{/foreach}		
 </div>
 
 {/block}
