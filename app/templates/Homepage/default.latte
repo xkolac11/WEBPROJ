@@ -4,7 +4,7 @@
 <div class="content">
 	
 	<div class="breadcrumbs">
-		<span><a href={link Homepage:} class="breadcrumbs-node">Hlavní strana</a></span>
+		{widget navigation:breadcrumbs}
 	</div>
 		
 	{foreach $results as $r}
@@ -23,7 +23,7 @@
 										<div class="forum-icon icon-forum"></div>
 									</td>
 									<td class="ft-forum">
-										<div class="forum-title"><a href="#">{$f->title}</a></div>
+										<div class="forum-title"><a href={link Forum:show $f->f_id}>{$f->title}</a></div>
 										<div class="forum-description">{$f->description}</div>
 									</td>
 									<td class="ft-topics">

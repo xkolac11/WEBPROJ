@@ -1,27 +1,27 @@
-<?php //netteCache[01]000382a:2:{s:4:"time";s:21:"0.00791600 1386876955";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:60:"C:\xampp\htdocs\WEBPROJ\app\templates\Homepage\default.latte";i:2;i:1386876953;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:30:"80a7e46 released on 2013-08-08";}}}?><?php
+<?php //netteCache[01]000382a:2:{s:4:"time";s:21:"0.15068300 1387233507";s:9:"callbacks";a:2:{i:0;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:9:"checkFile";}i:1;s:60:"C:\xampp\htdocs\WEBPROJ\app\templates\Homepage\default.latte";i:2;i:1387233505;}i:1;a:3:{i:0;a:2:{i:0;s:19:"Nette\Caching\Cache";i:1;s:10:"checkConst";}i:1;s:25:"Nette\Framework::REVISION";i:2;s:30:"80a7e46 released on 2013-08-08";}}}?><?php
 
 // source file: C:\xampp\htdocs\WEBPROJ\app\templates\Homepage\default.latte
 
 ?><?php
 // prolog Nette\Latte\Macros\CoreMacros
-list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'yuinaee53z')
+list($_l, $_g) = Nette\Latte\Macros\CoreMacros::initRuntime($template, 'vrs80aes63')
 ;
 // prolog Nette\Latte\Macros\UIMacros
 //
 // block title
 //
-if (!function_exists($_l->blocks['title'][] = '_lb0d8cc4c79d_title')) { function _lb0d8cc4c79d_title($_l, $_args) { extract($_args)
+if (!function_exists($_l->blocks['title'][] = '_lbf411789760_title')) { function _lbf411789760_title($_l, $_args) { extract($_args)
 ?>Home<?php
 }}
 
 //
 // block content
 //
-if (!function_exists($_l->blocks['content'][] = '_lbd38e89525c_content')) { function _lbd38e89525c_content($_l, $_args) { extract($_args)
+if (!function_exists($_l->blocks['content'][] = '_lb6460fdc60c_content')) { function _lb6460fdc60c_content($_l, $_args) { extract($_args)
 ?><div class="content">
 	
 	<div class="breadcrumbs">
-		<span><a href=<?php echo Nette\Templating\Helpers::escapeHtml($_control->link("Homepage:"), ENT_NOQUOTES) ?> class="breadcrumbs-node">Hlavní strana</a></span>
+<?php $_ctrl = $_control->getComponent("navigation"); if ($_ctrl instanceof Nette\Application\UI\IRenderable) $_ctrl->validateControl(); $_ctrl->renderBreadcrumbs() ?>
 	</div>
 		
 <?php $iterations = 0; foreach ($iterator = $_l->its[] = new Nette\Iterators\CachingIterator($results) as $r): ?>
@@ -41,7 +41,8 @@ if (!function_exists($_l->blocks['content'][] = '_lbd38e89525c_content')) { func
 										<div class="forum-icon icon-forum"></div>
 									</td>
 									<td class="ft-forum">
-										<div class="forum-title"><a href="#"><?php echo Nette\Templating\Helpers::escapeHtml($f->title, ENT_NOQUOTES) ?></a></div>
+										<div class="forum-title"><a href=<?php echo Nette\Templating\Helpers::escapeHtml($_control->link("Forum:show", array($f->f_id)), ENT_NOQUOTES) ?>
+><?php echo Nette\Templating\Helpers::escapeHtml($f->title, ENT_NOQUOTES) ?></a></div>
 										<div class="forum-description"><?php echo Nette\Templating\Helpers::escapeHtml($f->description, ENT_NOQUOTES) ?></div>
 									</td>
 									<td class="ft-topics">

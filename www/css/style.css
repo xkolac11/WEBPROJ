@@ -928,15 +928,11 @@ body{
 	
 }
 
-.breadcrumbs{	
+.breadcrumbs{
+	position:relative;
 	margin:0 auto;
-	height:40px;
+	padding:20px 10px 20px 10px;
 	font-size:14px;
-}
-
-.breadcrumbs span{
-	display:block;
-	padding:13px 10px 0px 10px;
 }
 
 .breadcrumbs a{
